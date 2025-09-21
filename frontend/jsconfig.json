@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "checkJs": true, // enables type checking in .js files
+    "jsx": "react-jsx", // or "react" if using older React (<17)
+    "baseUrl": "./src" // optional: lets you do absolute imports from src/
+  },
+  "exclude": ["node_modules"]
+}
